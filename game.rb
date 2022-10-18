@@ -15,9 +15,9 @@ class Game
   end
 
   def winner(player)
-    puts "#{player.name} wins with the score of #{player.health}/3"
-    puts '---------GAME-OVER--------'
-    puts 'Good bye!'
+    puts "#{player.name} IS THE WINNER WINNER CHICKEN DINNER!!! With the remaining health of #{player.health}/3"
+    puts "---------GAME-OVER--------"
+    puts ""
     exit(0)
   end
 
